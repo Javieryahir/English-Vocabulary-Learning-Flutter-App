@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "com.example.dictionaryenglish.app-merged_res-20:/mipmap-xhdpi_launcher_icon.png.flat",
+        "source": "com.example.dictionaryenglish.app-main-14:/mipmap-xhdpi/launcher_icon.png"
+    },
+    {
+        "merged": "com.example.dictionaryenglish.app-merged_res-20:/mipmap-hdpi_launcher_icon.png.flat",
+        "source": "com.example.dictionaryenglish.app-main-14:/mipmap-hdpi/launcher_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\JAVIER YAHIR\\.gradle\\daemon\\7.5\\com.example.dictionaryenglish.app-merged_res-20:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\JAVIER YAHIR\\.gradle\\daemon\\7.5\\com.example.dictionaryenglish.app-main-14:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.example.dictionaryenglish.app-merged_res-20:/mipmap-xxhdpi_launcher_icon.png.flat",
+        "source": "com.example.dictionaryenglish.app-main-14:/mipmap-xxhdpi/launcher_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\JAVIER YAHIR\\.gradle\\daemon\\7.5\\com.example.dictionaryenglish.app-merged_res-20:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\JAVIER YAHIR\\.gradle\\daemon\\7.5\\com.example.dictionaryenglish.app-main-14:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\JAVIER YAHIR\\.gradle\\daemon\\7.5\\com.example.dictionaryenglish.app-merged_res-20:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\JAVIER YAHIR\\.gradle\\daemon\\7.5\\com.example.dictionaryenglish.app-main-14:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\JAVIER YAHIR\\.gradle\\daemon\\7.5\\com.example.dictionaryenglish.app-merged_res-20:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\JAVIER YAHIR\\.gradle\\daemon\\7.5\\com.example.dictionaryenglish.app-main-14:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\JAVIER YAHIR\\.gradle\\daemon\\7.5\\com.example.dictionaryenglish.app-merged_res-20:\\drawable-v21_launch_background.xml.flat",
+        "source": "C:\\Users\\JAVIER YAHIR\\.gradle\\daemon\\7.5\\com.example.dictionaryenglish.app-main-14:\\drawable-v21\\launch_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\JAVIER YAHIR\\.gradle\\daemon\\7.5\\com.example.dictionaryenglish.app-merged_res-20:\\drawable_launch_background.xml.flat",
+        "source": "C:\\Users\\JAVIER YAHIR\\.gradle\\daemon\\7.5\\com.example.dictionaryenglish.app-main-14:\\drawable\\launch_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\JAVIER YAHIR\\.gradle\\daemon\\7.5\\com.example.dictionaryenglish.app-merged_res-20:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\JAVIER YAHIR\\.gradle\\daemon\\7.5\\com.example.dictionaryenglish.app-main-14:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.example.dictionaryenglish.app-merged_res-20:/mipmap-xxxhdpi_launcher_icon.png.flat",
+        "source": "com.example.dictionaryenglish.app-main-14:/mipmap-xxxhdpi/launcher_icon.png"
+    },
+    {
+        "merged": "com.example.dictionaryenglish.app-merged_res-20:/mipmap-mdpi_launcher_icon.png.flat",
+        "source": "com.example.dictionaryenglish.app-main-14:/mipmap-mdpi/launcher_icon.png"
+    }
+]

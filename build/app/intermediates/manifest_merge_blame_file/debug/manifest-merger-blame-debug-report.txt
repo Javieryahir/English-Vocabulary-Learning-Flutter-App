@@ -1,0 +1,177 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.javieryahir.dictionaryenglish"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\JAVIER YAHIR\projects_apps\english_dicitionary\dictionaryenglish\android\app\src\main\AndroidManifest.xml:3:5-67
+15-->C:\Users\JAVIER YAHIR\projects_apps\english_dicitionary\dictionaryenglish\android\app\src\main\AndroidManifest.xml:3:22-64
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:8:5-79
+16-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:8:22-76
+17    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+17-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:10:5-79
+17-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:10:22-76
+18
+19    <permission
+19-->[androidx.core:core:1.9.0] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\c2aff38445ebad8ddeaa989ecf50f56e\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+20        android:name="com.javieryahir.dictionaryenglish.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+20-->[androidx.core:core:1.9.0] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\c2aff38445ebad8ddeaa989ecf50f56e\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+21        android:protectionLevel="signature" />
+21-->[androidx.core:core:1.9.0] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\c2aff38445ebad8ddeaa989ecf50f56e\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+22
+23    <uses-permission android:name="com.javieryahir.dictionaryenglish.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+23-->[androidx.core:core:1.9.0] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\c2aff38445ebad8ddeaa989ecf50f56e\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+23-->[androidx.core:core:1.9.0] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\c2aff38445ebad8ddeaa989ecf50f56e\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+24
+25    <application
+26        android:name="android.app.Application"
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.9.0] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\c2aff38445ebad8ddeaa989ecf50f56e\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/launcher_icon"
+30        android:label="English Dictionary" >
+31        <activity
+32            android:name="com.example.dictionaryenglish.MainActivity"
+33            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+34            android:exported="true"
+35            android:hardwareAccelerated="true"
+36            android:launchMode="singleTop"
+37            android:theme="@style/LaunchTheme"
+38            android:windowSoftInputMode="adjustResize" >
+39
+40            <!--
+41                 Specifies an Android theme to apply to this Activity as soon as
+42                 the Android process has started. This theme is visible to the user
+43                 while the Flutter UI initializes. After that, this theme continues
+44                 to determine the Window background behind the Flutter UI.
+45            -->
+46            <meta-data
+47                android:name="io.flutter.embedding.android.NormalTheme"
+48                android:resource="@style/NormalTheme" />
+49
+50            <intent-filter>
+51                <action android:name="android.intent.action.MAIN" />
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+54            </intent-filter>
+55        </activity>
+56        <!--
+57             Don't delete the meta-data below.
+58             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+59        -->
+60        <meta-data
+61            android:name="flutterEmbedding"
+62            android:value="2" />
+63
+64        <activity
+64-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:13:9-18:74
+65            android:name="com.unity3d.services.ads.adunit.AdUnitActivity"
+65-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:14:13-74
+66            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+66-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:15:13-170
+67            android:exported="false"
+67-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:16:13-37
+68            android:hardwareAccelerated="true"
+68-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:17:13-47
+69            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+69-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:18:13-71
+70        <activity
+70-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:19:9-24:86
+71            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentActivity"
+71-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:20:13-85
+72            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+72-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:21:13-170
+73            android:exported="false"
+73-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:22:13-37
+74            android:hardwareAccelerated="true"
+74-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:23:13-47
+75            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+75-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:24:13-83
+76        <activity
+76-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:25:9-30:86
+77            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"
+77-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:26:13-93
+78            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+78-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:27:13-170
+79            android:exported="false"
+79-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:28:13-37
+80            android:hardwareAccelerated="false"
+80-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:29:13-48
+81            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+81-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:30:13-83
+82        <activity
+82-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:31:9-36:74
+83            android:name="com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"
+83-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:32:13-82
+84            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+84-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:33:13-170
+85            android:exported="false"
+85-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:34:13-37
+86            android:hardwareAccelerated="false"
+86-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:35:13-48
+87            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+87-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:36:13-71
+88
+89        <provider
+89-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:38:9-52:20
+90            android:name="androidx.startup.InitializationProvider"
+90-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:39:13-67
+91            android:authorities="com.javieryahir.dictionaryenglish.androidx-startup"
+91-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:40:13-68
+92            android:exported="false" >
+92-->[androidx.lifecycle:lifecycle-process:2.5.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\8a80d508033fedd67158c92cfcf77311\transformed\jetified-lifecycle-process-2.5.1\AndroidManifest.xml:29:13-37
+93            <meta-data
+93-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:42:13-44:52
+94                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+94-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:43:17-78
+95                android:value="androidx.startup" />
+95-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:44:17-49
+96            <meta-data
+96-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:45:13-47:52
+97                android:name="com.unity3d.services.core.configuration.AdsSdkInitializer"
+97-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:46:17-89
+98                android:value="androidx.startup" />
+98-->[com.unity3d.ads:unity-ads:4.9.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\b1215ca11df24a66f5087bb193a360d0\transformed\jetified-unity-ads-4.9.1\AndroidManifest.xml:47:17-49
+99        </provider>
+100
+101        <uses-library
+101-->[androidx.window:window:1.0.0-beta04] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+102            android:name="androidx.window.extensions"
+102-->[androidx.window:window:1.0.0-beta04] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+103            android:required="false" />
+103-->[androidx.window:window:1.0.0-beta04] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+104        <uses-library
+104-->[androidx.window:window:1.0.0-beta04] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+105            android:name="androidx.window.sidecar"
+105-->[androidx.window:window:1.0.0-beta04] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+106            android:required="false" />
+106-->[androidx.window:window:1.0.0-beta04] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+107
+108        <activity
+108-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\aba8f806953ea3dd8f794da3aeb78a12\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+109            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+109-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\aba8f806953ea3dd8f794da3aeb78a12\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+110            android:exported="false"
+110-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\aba8f806953ea3dd8f794da3aeb78a12\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+111            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+111-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\aba8f806953ea3dd8f794da3aeb78a12\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+112
+113        <meta-data
+113-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\f64fba6e6efbe26a4b67f791bcfc957f\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+114            android:name="com.google.android.gms.version"
+114-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\f64fba6e6efbe26a4b67f791bcfc957f\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+115            android:value="@integer/google_play_services_version" />
+115-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\JAVIER YAHIR\.gradle\caches\transforms-3\f64fba6e6efbe26a4b67f791bcfc957f\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+116    </application>
+117
+118</manifest>

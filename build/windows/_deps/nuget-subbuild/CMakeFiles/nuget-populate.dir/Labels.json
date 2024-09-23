@@ -1,0 +1,49 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/JAVIER YAHIR/projects_apps/english_dicitionary/dictionaryenglish/build/windows/_deps/nuget-subbuild/CMakeFiles/nuget-populate"
+		},
+		{
+			"file" : "C:/Users/JAVIER YAHIR/projects_apps/english_dicitionary/dictionaryenglish/build/windows/_deps/nuget-subbuild/CMakeFiles/1fafbec695645ec82e3d481d53524940/nuget-populate.rule"
+		},
+		{
+			"file" : "C:/Users/JAVIER YAHIR/projects_apps/english_dicitionary/dictionaryenglish/build/windows/_deps/nuget-subbuild/CMakeFiles/b2b240258b5850e2d810433c30c3cbc6/nuget-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/JAVIER YAHIR/projects_apps/english_dicitionary/dictionaryenglish/build/windows/_deps/nuget-subbuild/CMakeFiles/798cdcf1b9fd27d4f7c41d7ca8812a06/nuget-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/JAVIER YAHIR/projects_apps/english_dicitionary/dictionaryenglish/build/windows/_deps/nuget-subbuild/CMakeFiles/798cdcf1b9fd27d4f7c41d7ca8812a06/nuget-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/JAVIER YAHIR/projects_apps/english_dicitionary/dictionaryenglish/build/windows/_deps/nuget-subbuild/CMakeFiles/798cdcf1b9fd27d4f7c41d7ca8812a06/nuget-populate-copyfile.rule"
+		},
+		{
+			"file" : "C:/Users/JAVIER YAHIR/projects_apps/english_dicitionary/dictionaryenglish/build/windows/_deps/nuget-subbuild/CMakeFiles/798cdcf1b9fd27d4f7c41d7ca8812a06/nuget-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/JAVIER YAHIR/projects_apps/english_dicitionary/dictionaryenglish/build/windows/_deps/nuget-subbuild/CMakeFiles/798cdcf1b9fd27d4f7c41d7ca8812a06/nuget-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/JAVIER YAHIR/projects_apps/english_dicitionary/dictionaryenglish/build/windows/_deps/nuget-subbuild/CMakeFiles/798cdcf1b9fd27d4f7c41d7ca8812a06/nuget-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/JAVIER YAHIR/projects_apps/english_dicitionary/dictionaryenglish/build/windows/_deps/nuget-subbuild/CMakeFiles/798cdcf1b9fd27d4f7c41d7ca8812a06/nuget-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/JAVIER YAHIR/projects_apps/english_dicitionary/dictionaryenglish/build/windows/_deps/nuget-subbuild/CMakeFiles/798cdcf1b9fd27d4f7c41d7ca8812a06/nuget-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/JAVIER YAHIR/projects_apps/english_dicitionary/dictionaryenglish/build/windows/_deps/nuget-subbuild/CMakeFiles/798cdcf1b9fd27d4f7c41d7ca8812a06/nuget-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"nuget-populate"
+		],
+		"name" : "nuget-populate"
+	}
+}

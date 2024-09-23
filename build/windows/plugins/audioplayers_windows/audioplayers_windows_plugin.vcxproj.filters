@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\JAVIER YAHIR\projects_apps\english_dicitionary\dictionaryenglish\windows\flutter\ephemeral\.plugin_symlinks\audioplayers_windows\windows\audioplayers_windows_plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JAVIER YAHIR\projects_apps\english_dicitionary\dictionaryenglish\windows\flutter\ephemeral\.plugin_symlinks\audioplayers_windows\windows\audio_player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JAVIER YAHIR\projects_apps\english_dicitionary\dictionaryenglish\windows\flutter\ephemeral\.plugin_symlinks\audioplayers_windows\windows\MediaEngineExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\JAVIER YAHIR\projects_apps\english_dicitionary\dictionaryenglish\windows\flutter\ephemeral\.plugin_symlinks\audioplayers_windows\windows\MediaEngineWrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\JAVIER YAHIR\projects_apps\english_dicitionary\dictionaryenglish\windows\flutter\ephemeral\.plugin_symlinks\audioplayers_windows\windows\audio_player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JAVIER YAHIR\projects_apps\english_dicitionary\dictionaryenglish\windows\flutter\ephemeral\.plugin_symlinks\audioplayers_windows\windows\audioplayers_helpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JAVIER YAHIR\projects_apps\english_dicitionary\dictionaryenglish\windows\flutter\ephemeral\.plugin_symlinks\audioplayers_windows\windows\event_stream_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JAVIER YAHIR\projects_apps\english_dicitionary\dictionaryenglish\windows\flutter\ephemeral\.plugin_symlinks\audioplayers_windows\windows\MediaEngineExtension.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JAVIER YAHIR\projects_apps\english_dicitionary\dictionaryenglish\windows\flutter\ephemeral\.plugin_symlinks\audioplayers_windows\windows\MediaFoundationHelpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\JAVIER YAHIR\projects_apps\english_dicitionary\dictionaryenglish\windows\flutter\ephemeral\.plugin_symlinks\audioplayers_windows\windows\MediaEngineWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\JAVIER YAHIR\projects_apps\english_dicitionary\dictionaryenglish\windows\flutter\ephemeral\.plugin_symlinks\audioplayers_windows\windows\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6BB21B5D-C48F-325C-914E-1A12792F51AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3F51FB0B-5A58-387F-BE8A-B60989E85295}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

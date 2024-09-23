@@ -1,0 +1,3 @@
+C:/Users/JAVIER YAHIR/projects_apps/english_dicitionary/dictionaryenglish/build/windows/_deps/nuget-subbuild/CMakeFiles/nuget-populate.dir
+C:/Users/JAVIER YAHIR/projects_apps/english_dicitionary/dictionaryenglish/build/windows/_deps/nuget-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/JAVIER YAHIR/projects_apps/english_dicitionary/dictionaryenglish/build/windows/_deps/nuget-subbuild/CMakeFiles/ZERO_CHECK.dir

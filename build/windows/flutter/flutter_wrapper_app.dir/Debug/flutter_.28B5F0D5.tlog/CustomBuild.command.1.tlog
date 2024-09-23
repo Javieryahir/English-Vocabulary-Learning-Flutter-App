@@ -1,0 +1,10 @@
+^C:\USERS\JAVIER YAHIR\PROJECTS_APPS\ENGLISH_DICITIONARY\DICTIONARYENGLISH\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/JAVIER YAHIR/projects_apps/english_dicitionary/dictionaryenglish/windows" "-BC:/Users/JAVIER YAHIR/projects_apps/english_dicitionary/dictionaryenglish/build/windows" --check-stamp-file "C:/Users/JAVIER YAHIR/projects_apps/english_dicitionary/dictionaryenglish/build/windows/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

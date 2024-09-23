@@ -1,0 +1,4 @@
+#Mon Jan 15 15:37:00 GMT-06:00 2024
+base.0=C\:\\Users\\JAVIER YAHIR\\projects_apps\\english_dicitionary\\dictionaryenglish\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

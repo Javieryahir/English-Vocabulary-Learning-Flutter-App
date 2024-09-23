@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\JAVIER YAHIR\projects_apps\english_dicitionary\dictionaryenglish\build\windows\_deps\nuget-subbuild\CMakeFiles\1fafbec695645ec82e3d481d53524940\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5084726A-9CDE-3AE0-BF57-B81CDA3AEF65}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

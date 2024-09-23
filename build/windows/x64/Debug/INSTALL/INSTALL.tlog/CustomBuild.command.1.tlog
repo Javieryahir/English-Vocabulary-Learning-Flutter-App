@@ -1,0 +1,10 @@
+^C:\USERS\JAVIER YAHIR\PROJECTS_APPS\ENGLISH_DICITIONARY\DICTIONARYENGLISH\BUILD\WINDOWS\CMAKEFILES\8DC5F025218F6959CC7D54A766AD4A07\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

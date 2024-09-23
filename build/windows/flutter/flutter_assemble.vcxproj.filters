@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\JAVIER YAHIR\projects_apps\english_dicitionary\dictionaryenglish\build\windows\CMakeFiles\d0d064ad6045e9a5cb5e63faa1268721\flutter_windows.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\JAVIER YAHIR\projects_apps\english_dicitionary\dictionaryenglish\build\windows\CMakeFiles\0e071334d3a7967376e7dd6053d01702\flutter_assemble.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\JAVIER YAHIR\projects_apps\english_dicitionary\dictionaryenglish\windows\flutter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\JAVIER YAHIR\projects_apps\english_dicitionary\dictionaryenglish\build\windows\flutter\CMakeFiles\flutter_assemble" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{95610725-05A4-3088-A918-74C6F85C23C1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

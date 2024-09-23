@@ -1,0 +1,10 @@
+^C:\USERS\JAVIER YAHIR\PROJECTS_APPS\ENGLISH_DICITIONARY\DICTIONARYENGLISH\BUILD\WINDOWS\_DEPS\NUGET-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/JAVIER YAHIR/projects_apps/english_dicitionary/dictionaryenglish/build/windows/_deps/nuget-subbuild" "-BC:/Users/JAVIER YAHIR/projects_apps/english_dicitionary/dictionaryenglish/build/windows/_deps/nuget-subbuild" --check-stamp-file "C:/Users/JAVIER YAHIR/projects_apps/english_dicitionary/dictionaryenglish/build/windows/_deps/nuget-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

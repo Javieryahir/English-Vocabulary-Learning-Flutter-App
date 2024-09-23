@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.rebeloid.unity_ads.unity_ads_plugin-merged_res-19:/color/common_google_signin_btn_text_light.xml",
+        "source": "com.rebeloid.unity_ads.unity_ads_plugin-jetified-play-services-base-18.0.1-6:/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "com.rebeloid.unity_ads.unity_ads_plugin-merged_res-19:/color/common_google_signin_btn_tint.xml",
+        "source": "com.rebeloid.unity_ads.unity_ads_plugin-jetified-play-services-base-18.0.1-6:/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "com.rebeloid.unity_ads.unity_ads_plugin-merged_res-19:/color/common_google_signin_btn_text_dark.xml",
+        "source": "com.rebeloid.unity_ads.unity_ads_plugin-jetified-play-services-base-18.0.1-6:/color/common_google_signin_btn_text_dark.xml"
+    }
+]

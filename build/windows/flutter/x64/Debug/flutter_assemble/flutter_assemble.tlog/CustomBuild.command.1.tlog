@@ -1,0 +1,28 @@
+^C:\USERS\JAVIER YAHIR\PROJECTS_APPS\ENGLISH_DICITIONARY\DICTIONARYENGLISH\BUILD\WINDOWS\CMAKEFILES\D0D064AD6045E9A5CB5E63FAA1268721\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter "PROJECT_DIR=C:\Users\JAVIER YAHIR\projects_apps\english_dicitionary\dictionaryenglish" FLUTTER_ROOT=C:\flutter "FLUTTER_EPHEMERAL_DIR=C:\Users\JAVIER YAHIR\projects_apps\english_dicitionary\dictionaryenglish\windows\flutter\ephemeral" "PROJECT_DIR=C:\Users\JAVIER YAHIR\projects_apps\english_dicitionary\dictionaryenglish" "FLUTTER_TARGET=C:\Users\JAVIER YAHIR\projects_apps\english_dicitionary\dictionaryenglish\lib\main.dart" DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC8xYWM2MTFjNjRlYWRiZDkzYzVmNWFiYTU0OTRiOGZjM2IzNWVlOTUyLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=C:\Users\JAVIER YAHIR\projects_apps\english_dicitionary\dictionaryenglish\.dart_tool\package_config.json" C:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JAVIER YAHIR\PROJECTS_APPS\ENGLISH_DICITIONARY\DICTIONARYENGLISH\BUILD\WINDOWS\CMAKEFILES\0E071334D3A7967376E7DD6053D01702\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JAVIER YAHIR\PROJECTS_APPS\ENGLISH_DICITIONARY\DICTIONARYENGLISH\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/JAVIER YAHIR/projects_apps/english_dicitionary/dictionaryenglish/windows" "-BC:/Users/JAVIER YAHIR/projects_apps/english_dicitionary/dictionaryenglish/build/windows" --check-stamp-file "C:/Users/JAVIER YAHIR/projects_apps/english_dicitionary/dictionaryenglish/build/windows/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
